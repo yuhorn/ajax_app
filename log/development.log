@@ -912,3 +912,115 @@ Processing by PostsController#create as */*
 Completed 200 OK in 14ms (Views: 0.9ms | ActiveRecord: 3.2ms | Allocations: 2806)
 
 
+Started GET "/" for ::1 at 2023-01-29 21:28:17 +0900
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PostsController#index as HTML
+Filter chain halted as :basic_auth rendered or redirected
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms | Allocations: 1457)
+
+
+Started GET "/" for ::1 at 2023-01-29 21:28:19 +0900
+Processing by PostsController#index as HTML
+Filter chain halted as :basic_auth rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 352)
+
+
+Started GET "/" for ::1 at 2023-01-29 21:28:54 +0900
+Processing by PostsController#index as HTML
+Filter chain halted as :basic_auth rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 368)
+
+
+Started GET "/" for ::1 at 2023-01-29 21:29:38 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 22.3ms | Allocations: 4914)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+dyld[30183]: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.71.dylib
+  Referenced from: <9FFB3B96-9C37-39A1-9CF5-F5F4C1BE0224> /usr/local/Cellar/node@14/14.20.1/bin/node
+  Reason: tried: '/usr/local/opt/icu4c/lib/libicui18n.71.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/icu4c/lib/libicui18n.71.dylib' (no such file), '/usr/local/opt/icu4c/lib/libicui18n.71.dylib' (no such file), '/usr/local/lib/libicui18n.71.dylib' (no such file), '/usr/lib/libicui18n.71.dylib' (no such file, not in dyld cache), '/usr/local/Cellar/icu4c/72.1/lib/libicui18n.71.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/Cellar/icu4c/72.1/lib/libicui18n.71.dylib' (no such file), '/usr/local/Cellar/icu4c/72.1/lib/libicui18n.71.dylib' (no such file), '/usr/local/lib/libicui18n.71.dylib' (no such file), '/usr/lib/libicui18n.71.dylib' (no such file, not in dyld cache)
+dyld[30182]: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.71.dylib
+  Referenced from: <9FFB3B96-9C37-39A1-9CF5-F5F4C1BE0224> /usr/local/Cellar/node@14/14.20.1/bin/node
+  Reason: tried: '/usr/local/opt/icu4c/lib/libicui18n.71.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/icu4c/lib/libicui18n.71.dylib' (no such file), '/usr/local/opt/icu4c/lib/libicui18n.71.dylib' (no such file), '/usr/local/lib/libicui18n.71.dylib' (no such file), '/usr/lib/libicui18n.71.dylib' (no such file, not in dyld cache), '/usr/local/Cellar/icu4c/72.1/lib/libicui18n.71.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/Cellar/icu4c/72.1/lib/libicui18n.71.dylib' (no such file), '/usr/local/Cellar/icu4c/72.1/lib/libicui18n.71.dylib' (no such file), '/usr/local/lib/libicui18n.71.dylib' (no such file), '/usr/lib/libicui18n.71.dylib' (no such file, not in dyld cache)
+
+Completed 200 OK in 438ms (Views: 408.6ms | ActiveRecord: 3.4ms | Allocations: 20191)
+
+
+Started GET "/" for ::1 at 2023-01-29 23:04:05 +0900
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 4984)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 13.2ms | ActiveRecord: 3.4ms | Allocations: 14421)
+
+
+Started GET "/" for ::1 at 2023-01-29 23:04:27 +0900
+Processing by PostsController#index as HTML
+Filter chain halted as :basic_auth rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 158)
+
+
+Started GET "/" for ::1 at 2023-01-29 23:04:28 +0900
+Processing by PostsController#index as HTML
+Filter chain halted as :basic_auth rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 153)
+
+
+Started GET "/" for ::1 at 2023-01-29 23:14:33 +0900
+Processing by PostsController#index as HTML
+Filter chain halted as :basic_auth rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 167)
+
+
+Started GET "/" for ::1 at 2023-01-29 23:14:56 +0900
+Processing by PostsController#index as HTML
+Filter chain halted as :basic_auth rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 167)
+
+
+Started GET "/" for ::1 at 2023-01-29 23:15:15 +0900
+Processing by PostsController#index as HTML
+Filter chain halted as :basic_auth rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 167)
+
+
+Started GET "/" for ::1 at 2023-01-29 23:23:16 +0900
+Processing by PostsController#index as HTML
+Filter chain halted as :basic_auth rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 168)
+
+
+Started GET "/" for ::1 at 2023-01-29 23:23:40 +0900
+Processing by PostsController#index as HTML
+Filter chain halted as :basic_auth rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 166)
+
+
+Started GET "/" for ::1 at 2023-01-29 23:23:49 +0900
+Processing by PostsController#index as HTML
+Filter chain halted as :basic_auth rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 166)
+
+
+Started GET "/" for ::1 at 2023-01-29 23:23:59 +0900
+Processing by PostsController#index as HTML
+Filter chain halted as :basic_auth rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 166)
+
+
+Started GET "/" for ::1 at 2023-01-29 23:24:43 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.8ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1857)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 17.3ms | ActiveRecord: 1.8ms | Allocations: 5667)
+
+
